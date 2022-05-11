@@ -59,8 +59,7 @@ Vector operator* (double x, const Vector& y) {
     return y * x;
 }
 
-static double dot(const Vector& a, const Vector& b)
-{
+static double dot(const Vector& a, const Vector& b) {
     return a.x * b.x + a.y * b.y;
 }
 
@@ -73,8 +72,7 @@ Vector Vector::scale(const Vector& v) {
     return res;
 }
 
-Vector Vector::n()
-{
+Vector Vector::normalize() {
     Vector res(this->x / sqrt(this->x * this->x + this->y * this->y), this->y / sqrt(this->x * this->x + this->y * this->y));
     return res;
 }
