@@ -72,7 +72,15 @@ Vector Vector::scale(const Vector& v) {
     return res;
 }
 
-Vector Vector::normalize() {
+Vector Vector::n() {
     Vector res(this->x / sqrt(this->x * this->x + this->y * this->y), this->y / sqrt(this->x * this->x + this->y * this->y));
     return res;
+}
+
+double Vector::getX() {
+    return this->x;
+}
+
+double Vector::getY() {
+    return this->y;
 }
