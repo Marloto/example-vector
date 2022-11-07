@@ -1,4 +1,0 @@
-/Users/seb/Entwicklung/THI/Repositories/swmgt/ws2022/example-vector/build/CMakeFiles/vec.dir
-/Users/seb/Entwicklung/THI/Repositories/swmgt/ws2022/example-vector/build/CMakeFiles/run_main.dir
-/Users/seb/Entwicklung/THI/Repositories/swmgt/ws2022/example-vector/build/CMakeFiles/edit_cache.dir
-/Users/seb/Entwicklung/THI/Repositories/swmgt/ws2022/example-vector/build/CMakeFiles/rebuild_cache.dir
